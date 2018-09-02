@@ -1,18 +1,29 @@
 @import "./../../scss/_variables";
 
-nav {
+header {
     height: 100%;
-    font-family: $font-stack;
+    display: flex;
 
     img {
-        width: 167px;
-        height: 45px;
+        height: 100%;
         vertical-align: middle;
     }
 
     .logo {
-        display: inline-block;
-        line-height: 90px;
-        margin: 0 0 0 3%;
+        flex: 2;
+        text-align: left;
+    }
+
+    .actions {
+        flex: 1;
+        text-align: right;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    i {
+        vertical-align: middle;        
     }
 }

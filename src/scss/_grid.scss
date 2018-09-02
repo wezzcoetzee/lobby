@@ -21,10 +21,11 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-        'header header header header header header'
-        'games games games games details details'
-        'footer footer footer footer footer footer';
-    grid-template-rows: 10% 80% 10%;
+        'header header header'
+        'games games details'
+        'footer footer footer';
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 35% 35% 30%;
     grid-gap: 2px;
     background-color: #2196F3;
     height: 100vh;
@@ -32,7 +33,5 @@
 
 .grid-container>div {
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+    padding: 10px 0;
 }
