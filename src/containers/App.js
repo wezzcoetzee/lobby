@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
+import Nav from './../components/Nav/Nav';
 
 class App extends Component {
   render() {
     return (
       <div className="grid-container">
-        <div className="header">Header</div>
-        <div className="games">Menu</div>
-        <div className="details">Main</div>  
-        <div className="footer">Right</div>
+        <div className="header"><Nav /></div>
+        <div className="games">Games</div>
+        <div className="details">Details</div>  
+        <div className="footer">Footer</div>
       </div>
     );
   }

@@ -1,17 +1,21 @@
 .header {
     grid-area: header;
+    // height: 10vh;
 }
 
 .games {
     grid-area: games;
+    // height: 80vh;
 }
 
 .details {
     grid-area: details;
+    // height: 80vh;
 }
 
 .footer {
     grid-area: footer;
+    // height: 10vh;
 }
 
 .grid-container {
@@ -19,17 +23,10 @@
     grid-template-areas:
         'header header header header header header'
         'games games games games details details'
-        'games games games games details details'
-        'games games games games details details'
-        'games games games games details details'
-        'games games games games details details'
-        'games games games games details details'
-        'games games games games details details'
-        'games games games games details details'
         'footer footer footer footer footer footer';
-    grid-gap: 10px;
+    grid-template-rows: 10% 80% 10%;
+    grid-gap: 2px;
     background-color: #2196F3;
-    // padding: 10px;
     height: 100vh;
 }
 
