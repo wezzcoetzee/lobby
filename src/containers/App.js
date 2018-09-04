@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './App.scss';
 import Nav from './../components/Nav/Nav';
+import Games from './../components/Games/Games';
 import Footer from './../components/Footer/Footer';
+import gameListData from '../assets/gameListData.json';
 
 class App extends Component {
   constructor(props) {
@@ -12,6 +15,10 @@ class App extends Component {
       showDetails: false
     };
 
+    // this.gameSearch = this.gameSearch.bind(this)
+  }
+
+  componentDidMount() {
     this.fetchGameList();
   }
 
@@ -24,13 +31,20 @@ class App extends Component {
     //       gamesList: json
     //     });
     //   });
+    this.setState({
+      gamesList: gameListData
+    });
+  }
+
+  gameSearch(searchTerm) {
+    console.log(searchTerm);
   }
 
   render() {
     return (
       <div className="grid-container">
-        <div className="header"><Nav /></div>
-        <div className="games">Games</div>
+        <div className="header"><Nav onClick={(e) => this.gameSearch(e)} /></div>
+        <div className="games"><Games gameList={this.state.gamesList} /></div>
         <div className="details">Details</div>  
         <div className="footer"><Footer /></div>
       </div>

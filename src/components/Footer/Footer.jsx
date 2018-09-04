@@ -2,12 +2,18 @@
 import React from 'react';
 import './Footer.scss';
 
-const footer = () => {
+class footer extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
     return (
-        <footer>
-            <p className="copyright">Wesley Coetzee &copy;</p>
-        </footer>
+      <footer>
+        <p className="copyright">Wesley Coetzee &copy;</p>
+      </footer>
     )
+  }
 }
 
 export default footer;
