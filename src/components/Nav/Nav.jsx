@@ -3,7 +3,7 @@ import React from 'react';
 import './Nav.scss';
 import netflixlogo from './img/logo.svg';
 
-class nav extends React.Component {
+class Nav extends React.Component {
   constructor(props) {
     super(props);
 
@@ -42,4 +42,4 @@ class nav extends React.Component {
   }
 }
 
-export default nav;
+export default Nav;
