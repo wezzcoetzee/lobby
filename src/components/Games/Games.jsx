@@ -16,7 +16,7 @@ class Games extends React.Component {
   render() {
     return (
       <div className="games__container">
-         {this.props.gameList.map((item, i)=><div className="game__container" key={i}><GameCard game={item} /></div>)}
+         {this.props.gameList.map((item, i)=><section className="game__container" key={i}><GameCard game={item} /></section>)}
       </div>
     )
   }

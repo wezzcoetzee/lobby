@@ -15,7 +15,7 @@ class GameCard extends React.Component {
     return (
       <div className="game__card">
         <img src="https://via.placeholder.com/200x150" alt={this.props.game.name} />
-        {/* {this.props.game.name} */}
+        <span>{this.props.game.name}</span>
       </div>
     )
   }

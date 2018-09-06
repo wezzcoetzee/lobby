@@ -27,6 +27,11 @@
   height: 100vh;
 }
 
+.grid-container-details>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:
