@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Modal from 'react-modal';
 // import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.scss';
 import Nav from './../components/Nav/Nav';
@@ -13,10 +14,12 @@ class App extends Component {
     this.state = {
       gamesList: [],
       selectedGame: {},
-      showDetails: false
+      showDetails: false,
+      showModal: false
     };
 
-    // this.gameSearch = this.gameSearch.bind(this)
+    this.handleOpenModal = this.handleOpenModal.bind(this);
+    this.handleCloseModal = this.handleCloseModal.bind(this);
   }
 
   componentDidMount() {
@@ -53,16 +56,38 @@ class App extends Component {
     }
   }
 
+  handleOpenModal() {
+    this.setState({ showModal: true });
+  }
+  
+  handleCloseModal() {
+    this.setState({ showModal: false });
+  }
+
   render() {
     return (
-      <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
-        <div className='header'><Nav onClick={(e) => this.gameSearch(e)} /></div>
-        <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
-        <div className='details'><GameDetails onClick={(e) => this.showDetails(e)} /></div>  
-        <div className='footer'><Footer /></div>
+      <div>
+        <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
+          <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleOpenModal()} /></div>
+          <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
+          <div className='details'><GameDetails onClick={(e) => this.showDetails(e)} /></div>  
+          <div className='footer'><Footer /></div>
+        </div>
+        <Modal 
+           isOpen={this.state.showModal}
+           contentLabel="onRequestClose Example"
+           onRequestClose={this.handleCloseModal}
+           className="Modal"
+           overlayClassName="Overlay"
+        >
+          <p>Modal text!</p>
+          <button onClick={this.handleCloseModal}>Close Modal</button>
+        </Modal>
       </div>
     );
   }
 }
+
+Modal.setAppElement('#root');
 
 export default App;

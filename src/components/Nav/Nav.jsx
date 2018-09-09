@@ -17,10 +17,6 @@ class Nav extends React.Component {
     this.setState({ searchTerm: e.target.value });
   };
 
-  search = () => {
-    this.props.onClick(this.state.searchTerm);
-  }
-
   render() {
     return (
       <header>
@@ -30,10 +26,10 @@ class Nav extends React.Component {
         <section className="actions">
           <div>
             <input type="text" onChange={this.updateSearch} value={this.state.searchTerm} />
-            <a onClick={this.search}><i className="material-icons">search</i></a>
+            <a onClick={() => this.props.searchClick(this.state.searchTerm)}><i className="material-icons">search</i></a>
           </div>
           <div className="button">
-            <button className="primary">Login</button>
+            <button className="primary" onClick={() => this.props.loginClick()}>Login</button>
             <button className="secondary">Register</button>
           </div>
         </section>
