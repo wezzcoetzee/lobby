@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   fetchGameList() {
-    // fetch("../assets/gameListData.json")
+    // fetch('../assets/gameListData.json')
     //   .then(response => response.json())
     //   .then(json => {
     //     console.log(json);
@@ -40,13 +40,19 @@ class App extends Component {
     console.log(searchTerm);
   }
 
+  showDetails() {
+    this.setState({
+      showDetails: !this.state.showDetails
+    });
+  }
+
   render() {
     return (
-      <div className="grid-container">
-        <div className="header"><Nav onClick={(e) => this.gameSearch(e)} /></div>
-        <div className="games"><Games gameList={this.state.gamesList} /></div>
-        <div className="details">Details</div>  
-        <div className="footer"><Footer /></div>
+      <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
+        <div className='header'><Nav onClick={(e) => this.gameSearch(e)} /></div>
+        <div className='games'><Games gameList={this.state.gamesList} onClick={() => this.showDetails()} /></div>
+        <div className='details'>Details</div>  
+        <div className='footer'><Footer /></div>
       </div>
     );
   }

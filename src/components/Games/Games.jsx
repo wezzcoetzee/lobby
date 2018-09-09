@@ -13,10 +13,14 @@ class Games extends React.Component {
     }
   }
 
+  showDetails = () => {
+    this.props.onClick();
+  }
+
   render() {
     return (
       <div className="games__container">
-        <div className="toggle__button menu--toggle">
+        <div className="toggle__button menu--toggle" onClick={this.showDetails}>
           <i className="material-icons">
             chevron_left
           </i>
