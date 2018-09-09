@@ -1,17 +1,25 @@
 .header {
-  grid-area: header;  
+  grid-area: header;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
 }
 
 .games {
   grid-area: games;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
 }
 
 .details {
   grid-area: details;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
 }
 
 .footer {
   grid-area: footer;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
 }
 
 .grid-container-details {
@@ -27,11 +35,6 @@
   height: 100vh;
 }
 
-.grid-container-details>div {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px 0;
-}
-
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -43,9 +46,4 @@
   grid-gap: 2px;
   background-color: #2196F3;
   height: 100vh;
-}
-
-.grid-container>div {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 10px 0;
 }

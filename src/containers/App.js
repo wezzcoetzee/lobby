@@ -5,6 +5,7 @@ import Nav from './../components/Nav/Nav';
 import Games from './../components/Games/Games';
 import Footer from './../components/Footer/Footer';
 import gameListData from '../assets/gameListData.json';
+import GameDetails from '../components/GameDetails/GameDetails';
 
 class App extends Component {
   constructor(props) {
@@ -57,7 +58,7 @@ class App extends Component {
       <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
         <div className='header'><Nav onClick={(e) => this.gameSearch(e)} /></div>
         <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
-        <div className='details'>Details</div>  
+        <div className='details'><GameDetails onClick={(e) => this.showDetails(e)} /></div>  
         <div className='footer'><Footer /></div>
       </div>
     );
