@@ -40,17 +40,23 @@ class App extends Component {
     console.log(searchTerm);
   }
 
-  showDetails() {
-    this.setState({
-      showDetails: !this.state.showDetails
-    });
+  showDetails(e) {
+    if (e) {
+      this.setState({
+        showDetails: e
+      });
+    } else {
+      this.setState({
+        showDetails: !this.state.showDetails
+      });
+    }
   }
 
   render() {
     return (
       <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
         <div className='header'><Nav onClick={(e) => this.gameSearch(e)} /></div>
-        <div className='games'><Games gameList={this.state.gamesList} onClick={() => this.showDetails()} /></div>
+        <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
         <div className='details'>Details</div>  
         <div className='footer'><Footer /></div>
       </div>

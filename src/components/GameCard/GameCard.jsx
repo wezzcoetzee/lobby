@@ -11,9 +11,13 @@ class GameCard extends React.Component {
     }
   }
 
+  showDetails = () => {
+    this.props.onClick();
+  }
+
   render() {
     return (
-      <div className="game__card">
+      <div className="game__card" onClick={this.showDetails}>
         <img src="https://via.placeholder.com/250x200" alt={this.props.game.name} />
         <span>{this.props.game.name}</span>
       </div>

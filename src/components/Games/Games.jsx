@@ -13,14 +13,10 @@ class Games extends React.Component {
     }
   }
 
-  showDetails = () => {
-    this.props.onClick();
-  }
-
   render() {
     return (
       <div className="games__container">
-        <div className="toggle__button menu--toggle" onClick={this.showDetails}>
+        <div className="toggle__button menu--toggle" onClick={() => {this.props.onClick(false)}}>
           <i className="material-icons">
             chevron_left
           </i>
@@ -30,8 +26,7 @@ class Games extends React.Component {
             expand_less
           </i>
         </div>
-        {/* <div className="menu--toggle"></div> */}
-        {this.props.gameList.map((item, i) => <section className="game__container" key={i}><GameCard game={item} /></section>)}
+        {this.props.gameList.map((item, i) => <section className="game__container" key={i}><GameCard game={item} onClick={() => {this.props.onClick(true)}} /></section>)}
       </div>
     )
   }
