@@ -1,17 +1,23 @@
+@import './../scss/_variables';
+
 .Modal {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  right: 40px;
-  bottom: 40px;
-  background-color: papayawhip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 30rem;
+  width: 40rem;
+  background-color: $white-color;
 }
 
-.Overlay {
+.Overlay {  
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rebeccapurple;
+  background-color: rgba(143, 143, 143, .7);
+  // opacity:0.6;
+  height: 100%;
+  display: flex;
 }
