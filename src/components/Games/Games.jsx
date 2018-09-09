@@ -12,11 +12,22 @@ class Games extends React.Component {
       selectedGame: ""
     }
   }
-  
+
   render() {
     return (
       <div className="games__container">
-         {this.props.gameList.map((item, i)=><section className="game__container" key={i}><GameCard game={item} /></section>)}
+        <div className="toggle__button menu--toggle">
+          <i className="material-icons">
+            chevron_left
+          </i>
+        </div>
+        <div className="toggle__button scroll--top">
+          <i className="material-icons">
+            expand_less
+          </i>
+        </div>
+        {/* <div className="menu--toggle"></div> */}
+        {this.props.gameList.map((item, i) => <section className="game__container" key={i}><GameCard game={item} /></section>)}
       </div>
     )
   }
