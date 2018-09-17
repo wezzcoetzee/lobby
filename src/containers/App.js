@@ -15,11 +15,14 @@ class App extends Component {
       gamesList: [],
       selectedGame: {},
       showDetails: false,
-      showModal: false
+      showLoginModal: false,
+      showRegisterModal: false
     };
 
-    this.handleOpenModal = this.handleOpenModal.bind(this);
-    this.handleCloseModal = this.handleCloseModal.bind(this);
+    this.handleLoginModalOpen = this.handleLoginModalOpen.bind(this);
+    this.handleLoginModalClose = this.handleLoginModalClose.bind(this);
+    this.handleRegisterModalOpen = this.handleRegisterModalOpen.bind(this);
+    this.handleRegisterModalClose = this.handleRegisterModalClose.bind(this);
   }
 
   componentDidMount() {
@@ -56,32 +59,54 @@ class App extends Component {
     }
   }
 
-  handleOpenModal() {
-    this.setState({ showModal: true });
+  handleLoginModalOpen() {
+    this.setState({ showLoginModal: true });
   }
-  
-  handleCloseModal() {
-    this.setState({ showModal: false });
+
+  handleLoginModalClose() {
+    this.setState({ showLoginModal: false });
+  }
+
+  handleRegisterModalOpen() {
+    this.setState({ showRegisterModal: true });
+  }
+
+  handleRegisterModalClose() {
+    this.setState({ showRegisterModal: false });
   }
 
   render() {
     return (
       <div>
         <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
-          <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleOpenModal()} registerClick={() => this.handleOpenModal()} /></div>
+          <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleLoginModalOpen()} registerClick={() => this.handleRegisterModalOpen()} /></div>
           <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
           <div className='details'><GameDetails onClick={(e) => this.showDetails(e)} /></div>  
           <div className='footer'><Footer /></div>
         </div>
+
         <Modal 
-           isOpen={this.state.showModal}
+           isOpen={this.state.showLoginModal}
            contentLabel="onRequestClose Example"
            onRequestClose={this.handleCloseModal}
            className="Modal"
            overlayClassName="Overlay"
         >
-          <p>Modal text!</p>
-          <button onClick={this.handleCloseModal}>Close Modal</button>
+          <p>Login Modal</p>
+          <button className="primary" onClick={this.handleLoginModalClose}>Okay</button>
+          <button className="secondary" onClick={this.handleLoginModalClose}>Cancel</button>
+        </Modal>
+
+        <Modal 
+           isOpen={this.state.showRegisterModal}
+           contentLabel="onRequestClose Example"
+           onRequestClose={this.handleCloseModal}
+           className="Modal"
+           overlayClassName="Overlay"
+        >
+          <p>Register Modal</p>
+          <button className="primary" onClick={this.handleRegisterModalClose}>Okay</button>
+          <button className="secondary" onClick={this.handleRegisterModalClose}>Cancel</button>
         </Modal>
       </div>
     );
