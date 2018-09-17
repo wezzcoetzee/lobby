@@ -19,9 +19,10 @@ class App extends Component {
       showRegisterModal: false
     };
 
-    this.handleLoginModalOpen = this.handleLoginModalOpen.bind(this);
+    this.handleModalOpen = this.handleModalOpen.bind(this);
+    this.handleModalClose = this.handleModalClose.bind(this);
+
     this.handleLoginModalClose = this.handleLoginModalClose.bind(this);
-    this.handleRegisterModalOpen = this.handleRegisterModalOpen.bind(this);
     this.handleRegisterModalClose = this.handleRegisterModalClose.bind(this);
   }
 
@@ -59,16 +60,28 @@ class App extends Component {
     }
   }
 
-  handleLoginModalOpen() {
-    this.setState({ showLoginModal: true });
+  handleModalOpen(type) {
+    if (type === 'login') {
+      this.setState({ showLoginModal: true });
+    } else if (type === 'register') {
+      this.setState({ showRegisterModal: true });
+    } else {
+      return;
+    }
+  }
+
+  handleModalClose(type) {
+    if (type === 'login') {
+      this.setState({ showLoginModal: false });
+    } else if (type === 'register') {
+      this.setState({ showRegisterModal: false });
+    } else {
+      return;
+    }
   }
 
   handleLoginModalClose() {
     this.setState({ showLoginModal: false });
-  }
-
-  handleRegisterModalOpen() {
-    this.setState({ showRegisterModal: true });
   }
 
   handleRegisterModalClose() {
@@ -79,7 +92,7 @@ class App extends Component {
     return (
       <div>
         <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
-          <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleLoginModalOpen()} registerClick={() => this.handleRegisterModalOpen()} /></div>
+          <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleModalOpen('login')} registerClick={() => this.handleModalOpen('register')} /></div>
           <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
           <div className='details'><GameDetails onClick={(e) => this.showDetails(e)} /></div>  
           <div className='footer'><Footer /></div>
@@ -88,25 +101,25 @@ class App extends Component {
         <Modal 
            isOpen={this.state.showLoginModal}
            contentLabel="onRequestClose Example"
-           onRequestClose={this.handleCloseModal}
+           onRequestClose={() => this.handleModalClose('login')}
            className="Modal"
            overlayClassName="Overlay"
         >
           <p>Login Modal</p>
-          <button className="primary" onClick={this.handleLoginModalClose}>Okay</button>
-          <button className="secondary" onClick={this.handleLoginModalClose}>Cancel</button>
+          <button className="primary" onClick={() => this.handleModalClose('login')}>Okay</button>
+          <button className="secondary" onClick={() =>this.handleModalClose('login')}>Cancel</button>
         </Modal>
 
         <Modal 
            isOpen={this.state.showRegisterModal}
            contentLabel="onRequestClose Example"
-           onRequestClose={this.handleCloseModal}
+           onRequestClose={() => this.handleModalClose('register')}
            className="Modal"
            overlayClassName="Overlay"
         >
           <p>Register Modal</p>
-          <button className="primary" onClick={this.handleRegisterModalClose}>Okay</button>
-          <button className="secondary" onClick={this.handleRegisterModalClose}>Cancel</button>
+          <button className="primary" onClick={() => this.handleModalClose('register')}>Okay</button>
+          <button className="secondary" onClick={() => this.handleModalClose('register')}>Cancel</button>
         </Modal>
       </div>
     );
