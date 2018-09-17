@@ -68,7 +68,7 @@ class App extends Component {
     return (
       <div>
         <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
-          <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleOpenModal()} /></div>
+          <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleOpenModal()} registerClick={() => this.handleOpenModal()} /></div>
           <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
           <div className='details'><GameDetails onClick={(e) => this.showDetails(e)} /></div>  
           <div className='footer'><Footer /></div>

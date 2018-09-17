@@ -30,7 +30,7 @@ class Nav extends React.Component {
           </div>
           <div className="button">
             <button className="primary" onClick={() => this.props.loginClick()}>Login</button>
-            <button className="secondary">Register</button>
+            <button className="secondary" onClick={() => this.props.registerClick()}>Register</button>
           </div>
         </section>
       </header>
