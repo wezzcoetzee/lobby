@@ -13,13 +13,11 @@ class Login extends React.Component {
   }
 
   updateEmail = (e) => {
-    console.log(e.target.value);
-    this.setState({ searchTerm: e.target.value });
+    this.setState({ email: e.target.value });
   };
 
   updatePassword = (e) => {
-    console.log(e.target.value);
-    this.setState({ searchTerm: e.target.value });
+    this.setState({ password: e.target.value });
   };
 
   render() {

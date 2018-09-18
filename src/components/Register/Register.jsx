@@ -7,29 +7,48 @@ class Register extends React.Component {
     super(props);
 
     this.state = {
+      confirmPassword: "",
       email: "",
-      password: ""
+      firstName: "",
+      lastName: "",
+      password: "",
     }
   }
 
+  updateConfirmPassword = (e) => {
+    this.setState({ confirmPassword: e.target.value });
+  };
+
   updateEmail = (e) => {
-    console.log(e.target.value);
-    this.setState({ searchTerm: e.target.value });
+    this.setState({ email: e.target.value });
+  };
+
+  updateFirstName = (e) => {
+    this.setState({ firstName: e.target.value });
+  };
+
+  updateLastName = (e) => {
+    this.setState({ lastName: e.target.value });
   };
 
   updatePassword = (e) => {
-    console.log(e.target.value);
-    this.setState({ searchTerm: e.target.value });
+    this.setState({ password: e.target.value });
   };
 
   render() {
     return (
       <section>      
-        <div>  
+        <div>
+          <label>First name</label>
+          <input type="text" onChange={this.updateFirstName} value={this.state.firstName} />
+          <label>Last name</label>
+          <input type="text" onChange={this.updateLastName} value={this.state.lastName} />
           <label>Email</label>
           <input type="email" onChange={this.updateEmail} value={this.state.email} />
           <label>Password</label>
           <input type="password" onChange={this.updatePassword} value={this.state.password} />
+          <label>Confirm password</label>
+          <input type="password" onChange={this.updateConfirmPassword} value={this.state.confirmPassword} />
         </div>
         <div>
           <button className="primary" onClick={() => this.props.handleModalClose('register')}>Okay</button>
