@@ -37,8 +37,8 @@ class Register extends React.Component {
 
   render() {
     return (
-      <section>      
-        <div>
+      <section className="register__wrapper">      
+        <div className="input__wrapper">
           <label>First name</label>
           <input type="text" onChange={this.updateFirstName} value={this.state.firstName} />
           <label>Last name</label>
@@ -50,8 +50,8 @@ class Register extends React.Component {
           <label>Confirm password</label>
           <input type="password" onChange={this.updateConfirmPassword} value={this.state.confirmPassword} />
         </div>
-        <div>
-          <button className="primary" onClick={() => this.props.handleModalClose('register')}>Okay</button>
+        <div className="button__wrapper">
+          <button className="primary" onClick={() => this.props.handleModalClose('register')}>Register</button>
           <button className="secondary" onClick={() => this.props.handleModalClose('register')}>Cancel</button>
         </div>
       </section>

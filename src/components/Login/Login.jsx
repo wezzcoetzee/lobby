@@ -22,15 +22,15 @@ class Login extends React.Component {
 
   render() {
     return (
-      <section>      
-        <div>  
+      <section className="login__wrapper">      
+        <div className="input__wrapper">  
           <label>Email</label>
           <input type="email" onChange={this.updateEmail} value={this.state.email} />
           <label>Password</label>
           <input type="password" onChange={this.updatePassword} value={this.state.password} />
         </div>
-        <div>
-          <button className="primary" onClick={() => this.props.handleModalClose('login')}>Okay</button>
+        <div className="button__wrapper">
+          <button className="primary" onClick={() => this.props.handleModalClose('login')}>Login</button>
           <button className="secondary" onClick={() => this.props.handleModalClose('login')}>Cancel</button>
         </div>
       </section>

@@ -1,0 +1,19 @@
+@import "./../../scss/_variables";
+
+.register__wrapper {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  .input__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .button__wrapper {
+    text-align: right;
+  }
+}
