@@ -7,6 +7,8 @@ import Games from './../components/Games/Games';
 import Footer from './../components/Footer/Footer';
 import gameListData from '../assets/gameListData.json';
 import GameDetails from '../components/GameDetails/GameDetails';
+import Login from '../components/Login/Login';
+import Register from '../components/Register/Register';
 
 class App extends Component {
   constructor(props) {
@@ -21,9 +23,6 @@ class App extends Component {
 
     this.handleModalOpen = this.handleModalOpen.bind(this);
     this.handleModalClose = this.handleModalClose.bind(this);
-
-    this.handleLoginModalClose = this.handleLoginModalClose.bind(this);
-    this.handleRegisterModalClose = this.handleRegisterModalClose.bind(this);
   }
 
   componentDidMount() {
@@ -80,14 +79,6 @@ class App extends Component {
     }
   }
 
-  handleLoginModalClose() {
-    this.setState({ showLoginModal: false });
-  }
-
-  handleRegisterModalClose() {
-    this.setState({ showRegisterModal: false });
-  }
-
   render() {
     return (
       <div>
@@ -105,9 +96,7 @@ class App extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <p>Login Modal</p>
-          <button className="primary" onClick={() => this.handleModalClose('login')}>Okay</button>
-          <button className="secondary" onClick={() =>this.handleModalClose('login')}>Cancel</button>
+          <Login handleModalClose={(e) => this.handleModalClose(e)} />
         </Modal>
 
         <Modal 
@@ -117,9 +106,7 @@ class App extends Component {
            className="Modal"
            overlayClassName="Overlay"
         >
-          <p>Register Modal</p>
-          <button className="primary" onClick={() => this.handleModalClose('register')}>Okay</button>
-          <button className="secondary" onClick={() => this.handleModalClose('register')}>Cancel</button>
+          <Register handleModalClose={(e) => this.handleModalClose(e)} />
         </Modal>
       </div>
     );
