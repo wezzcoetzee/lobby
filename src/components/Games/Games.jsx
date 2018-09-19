@@ -26,7 +26,7 @@ class Games extends React.Component {
             expand_less
           </i>
         </div> */}
-        {this.props.gameList.map((item, i) => <section className="game__container" key={i}><GameCard game={item} onClick={() => {this.props.onClick(true)}} /></section>)}
+        {this.props.gameList.map((game, i) => <section className="game__container" key={i}><GameCard game={game} onClick={() => {this.props.onClick(true, game)}} /></section>)}
       </div>
     )
   }

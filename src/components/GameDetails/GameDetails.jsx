@@ -4,27 +4,23 @@ import React from 'react';
 import './GameDetails.scss';
 
 class GameDetails extends React.Component {
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-    this.state = {
-      selectedGame: ""
-    }
-  }
+  //   this.state = {
+  //     selectedGame: ""
+  //   }
+  // }
 
   render() {
     return (
-      <div>
-        <div className="toggle__button menu--toggle" onClick={() => {this.props.onClick(false)}}>
-          <i className="material-icons">
-            chevron_left
-          </i>
-        </div>
-        <div className="toggle__button scroll--top">
-          <i className="material-icons">
-            expand_less
-          </i>
-        </div>
+      <div className="details__wrapper">
+        <section>
+          <img src={this.props.game.image} alt={this.props.game.name} />
+          <h3>{this.props.game.name}</h3>
+          <p>Tempreture</p>
+          <progress value={this.props.game.heat} max="100"></progress>
+        </section>        
       </div>
     )
   }

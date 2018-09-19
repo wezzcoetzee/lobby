@@ -47,15 +47,18 @@ class App extends Component {
     console.log(searchTerm);
   }
 
-  showDetails(e) {
-    if (e) {
+  showDetails(gameClick, selectedGame) {
+    if (gameClick) {
       this.setState({
-        showDetails: e
+        showDetails: gameClick,
+        selectedGame: selectedGame
       });
     } else {
-      this.setState({
-        showDetails: !this.state.showDetails
-      });
+      if (this.state.selectedGame !== undefined) {
+        this.setState({
+          showDetails: !this.state.showDetails
+        });
+      }
     }
   }
 
@@ -84,9 +87,20 @@ class App extends Component {
       <div>
         <div className={this.state.showDetails ? 'grid-container-details' : 'grid-container'}>
           <div className='header'><Nav searchClick={(e) => this.gameSearch(e)} loginClick={() => this.handleModalOpen('login')} registerClick={() => this.handleModalOpen('register')} /></div>
-          <div className='games'><Games gameList={this.state.gamesList} onClick={(e) => this.showDetails(e)} /></div>
-          <div className='details'><GameDetails onClick={(e) => this.showDetails(e)} /></div>  
+          <div className='games'><Games gameList={this.state.gamesList} onClick={(gameClick, selectedGame) => this.showDetails(gameClick, selectedGame)} /></div>
+          <div className='details'><GameDetails game={this.state.selectedGame} /></div>  
           <div className='footer'><Footer /></div>
+        </div>
+        
+        <div className={this.state.showDetails ? 'toggle__button menu--toggle details--expanded' : 'toggle__button menu--toggle'} onClick={() => {this.showDetails(false)}}>
+          <i className="material-icons">
+            chevron_left
+          </i>
+        </div>
+        <div className={this.state.showDetails ? 'toggle__button scroll--top details--expanded' : 'toggle__button scroll--top'}>
+          <i className="material-icons">
+            expand_less
+          </i>
         </div>
 
         <Modal 
