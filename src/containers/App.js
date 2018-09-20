@@ -9,6 +9,7 @@ import gameListData from '../assets/gameListData.json';
 import GameDetails from '../components/GameDetails/GameDetails';
 import Login from '../components/Login/Login';
 import Register from '../components/Register/Register';
+import ToggleButtons from '../components/ToggleButtons/ToggleButtons';
 
 class App extends Component {
   constructor(props) {
@@ -91,23 +92,8 @@ class App extends Component {
           <div className='details'><GameDetails game={this.state.selectedGame} /></div>  
           <div className='footer'><Footer /></div>
         </div>
-        
-        <div className={this.state.showDetails ? 'toggle__button menu--toggle details--expanded' : 'toggle__button menu--toggle'} onClick={() => {this.showDetails(false)}}>
-          {this.state.showDetails ? (
-            <i className="material-icons">
-              chevron_right
-            </i>
-          ) : (
-            <i className="material-icons">
-              chevron_left
-            </i>
-          )}
-        </div>
-        <div className={this.state.showDetails ? 'toggle__button scroll--top details--expanded' : 'toggle__button scroll--top'}>
-          <i className="material-icons">
-            expand_less
-          </i>
-        </div>
+
+        <ToggleButtons showDetails={this.state.showDetails} onClick={(e) => this.showDetails(e)} />
 
         <Modal 
            isOpen={this.state.showLoginModal}

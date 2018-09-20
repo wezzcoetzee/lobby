@@ -21,29 +21,3 @@
   height: 100%;
   display: flex;
 }
-
-.toggle__button {
-  height: 5rem;
-  width: 5rem;
-  background: rgba($primary-color, $alpha: 0.2);
-  position: absolute;
-  right: 1rem;
-  cursor: pointer;
-  border-radius: 0.5rem;
-
-  .material-icons {
-    font-size: 5rem;
-  }
-
-  &.menu--toggle {
-    top: 120px;
-  }
-
-  &.scroll--top {
-    bottom: 8rem;
-  }
-
-  &.details--expanded {
-    right: 26%
-  }
-}
