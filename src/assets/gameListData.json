@@ -1,128 +1,872 @@
 [
   {
+    "id": 0,
+    "name": "Chase Norman",
+    "description": "Dolore id ullamco adipisicing eiusmod amet do. Enim ut dolore eu non velit veniam adipisicing quis pariatur culpa dolore aliquip. Nisi eiusmod dolor commodo dolor culpa ad officia nostrud excepteur laboris laboris fugiat. Magna minim adipisicing adipisicing labore minim qui. Officia qui proident aute fugiat dolor duis id officia. Magna commodo nisi nostrud commodo minim duis quis commodo id. Lorem magna reprehenderit elit cillum ullamco.\r\n",
+    "heat": 32,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
     "id": 1,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Travis Wilkins",
+    "description": "Excepteur laborum nulla mollit cillum. In ullamco labore ex laborum adipisicing minim. Cupidatat duis reprehenderit deserunt aliqua pariatur do nulla voluptate ullamco officia reprehenderit. Magna voluptate mollit culpa voluptate consequat aliqua eiusmod ex nulla velit. Irure ad labore minim pariatur dolore ullamco aute officia. Qui irure nisi nisi irure Lorem aute nisi.\r\n",
+    "heat": 82,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 2,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Elva Maldonado",
+    "description": "Quis pariatur ex labore do adipisicing in reprehenderit labore reprehenderit amet laborum exercitation. Culpa aliqua enim aliquip est nostrud nostrud ad cillum ad do sint laborum sit esse. Est deserunt amet proident cupidatat duis ea tempor fugiat sint. Esse labore duis anim nulla sit laborum. Elit sunt et est ea irure magna labore deserunt laboris id. Aute est magna consequat occaecat excepteur incididunt duis non labore laboris.\r\n",
+    "heat": 28,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 3,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Lenora Herman",
+    "description": "Amet dolor anim nulla officia consequat sit reprehenderit laborum dolor non laborum. Pariatur ipsum ad esse est amet velit officia fugiat quis sint. Aliqua Lorem aliquip nulla commodo. Et consectetur laboris esse dolor quis officia amet nostrud est irure cillum culpa. Consectetur nulla nisi id irure reprehenderit quis do non dolor anim.\r\n",
+    "heat": 80,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
   },
   {
     "id": 4,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Valenzuela Guerrero",
+    "description": "Pariatur mollit nisi cupidatat sunt sint ex Lorem non occaecat. Quis magna consequat fugiat do amet sit Lorem occaecat nisi nisi occaecat magna. Anim ullamco ea labore Lorem est dolore nisi reprehenderit.\r\n",
+    "heat": 23,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
   },
   {
     "id": 5,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Foley Ward",
+    "description": "Quis in est mollit pariatur ipsum officia dolor voluptate. Id voluptate consequat anim occaecat est enim amet aliquip. Tempor duis et eu excepteur incididunt irure sit commodo sunt officia ex nostrud. Nulla fugiat aliqua irure laboris in laborum nulla laboris deserunt consectetur do ea id. Aliqua dolore ad cupidatat adipisicing Lorem consectetur reprehenderit anim incididunt laborum. Id magna aliquip Lorem reprehenderit laborum exercitation officia eiusmod aliqua incididunt pariatur sunt anim.\r\n",
+    "heat": 49,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 6,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Lamb Martin",
+    "description": "Occaecat incididunt tempor ipsum dolore nostrud sunt. Est laboris excepteur est irure incididunt nulla ex occaecat in qui nostrud. Ullamco nulla id consequat aliquip consectetur anim tempor sint Lorem ipsum sit. Deserunt laborum dolor officia elit amet irure nostrud enim labore aliqua ullamco minim nostrud irure. Sint in labore nisi aliquip enim est irure labore labore sunt reprehenderit pariatur. Labore in cupidatat aute excepteur in consequat officia cupidatat sunt fugiat culpa. Quis esse dolore esse sint non voluptate voluptate laborum.\r\n",
+    "heat": 57,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 7,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Higgins Haley",
+    "description": "Commodo consequat ad eu aute id. Excepteur occaecat occaecat in do do commodo tempor ad amet enim excepteur laboris laboris non. Nulla eu Lorem excepteur amet fugiat sunt sint id consequat. Lorem nostrud qui eiusmod amet est cillum occaecat occaecat elit. Ad Lorem velit eiusmod pariatur deserunt officia commodo ut. Adipisicing exercitation tempor deserunt laboris adipisicing nisi veniam id eiusmod ullamco magna Lorem consequat. Minim sit sunt tempor ex eiusmod mollit esse esse labore.\r\n",
+    "heat": 24,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 8,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Martina Charles",
+    "description": "Lorem Lorem commodo sint ex ipsum mollit nisi in amet reprehenderit velit ex sit laboris. Pariatur tempor laborum eiusmod in. Consectetur ut sit voluptate cillum duis. Pariatur nisi enim quis laborum velit ex fugiat sunt do. Cupidatat et reprehenderit aliqua qui non pariatur cillum pariatur minim ad aliquip reprehenderit veniam. Reprehenderit duis eiusmod esse sint.\r\n",
+    "heat": 49,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 9,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Irma Schmidt",
+    "description": "Officia duis id exercitation est magna consequat adipisicing velit eiusmod anim incididunt pariatur ullamco velit. Sit irure amet irure fugiat Lorem. Mollit consequat ipsum cillum esse consectetur irure aliqua excepteur. Culpa veniam adipisicing laboris laborum et laborum voluptate pariatur enim commodo qui aliquip. Elit in in dolore culpa laborum eu do sint. Enim ipsum ullamco proident occaecat veniam cillum enim.\r\n",
+    "heat": 38,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
   },
   {
     "id": 10,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Schneider Underwood",
+    "description": "Esse ipsum in ad qui sint id cupidatat ullamco culpa irure deserunt minim aute irure. Nisi cupidatat qui consectetur adipisicing duis deserunt nisi ex. Nisi dolore eiusmod eiusmod labore elit fugiat nisi quis. Laboris eu id ea dolor anim irure irure nostrud elit eiusmod commodo ullamco. Voluptate adipisicing nisi cupidatat aute consectetur excepteur mollit. Ut incididunt eiusmod sint adipisicing et do incididunt reprehenderit in non elit aute. Ad eiusmod id duis pariatur magna occaecat velit.\r\n",
+    "heat": 35,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
   },
   {
     "id": 11,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Rosales Decker",
+    "description": "Fugiat aute nisi adipisicing nisi consequat cupidatat consectetur deserunt quis elit pariatur enim deserunt consectetur. Eiusmod ut incididunt reprehenderit ut elit magna laborum enim labore ad aute. Non quis est ut consequat.\r\n",
+    "heat": 69,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
   },
   {
     "id": 12,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Watson Galloway",
+    "description": "Excepteur minim ad aliquip do labore officia. Nisi ea sint velit anim occaecat deserunt est labore deserunt. Cupidatat occaecat voluptate elit et et.\r\n",
+    "heat": 20,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
   },
   {
     "id": 13,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Elaine Mcclure",
+    "description": "Et reprehenderit velit fugiat in consectetur aute irure in non Lorem quis et. Fugiat cillum aliquip id do proident est velit velit anim reprehenderit. Pariatur esse excepteur fugiat occaecat enim eu cillum consectetur ea. Consequat in consequat aute sit irure sint anim fugiat ea cillum exercitation Lorem.\r\n",
+    "heat": 44,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": false
   },
   {
     "id": 14,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Robert Parker",
+    "description": "Incididunt commodo ad laboris elit consequat. Eu sint anim cillum pariatur quis cupidatat. Ex labore id velit amet incididunt labore reprehenderit ex.\r\n",
+    "heat": 94,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 15,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Gould Rollins",
+    "description": "Sit labore pariatur labore et aute anim deserunt. Enim irure fugiat aliquip fugiat ad cillum proident ipsum ipsum proident ut voluptate tempor. Ipsum ex aute sunt voluptate veniam minim aliquip laborum ex. Velit cillum sunt occaecat nulla ad.\r\n",
+    "heat": 88,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
   },
   {
     "id": 16,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Katrina Hogan",
+    "description": "Qui velit enim amet minim. Est consequat laboris sint culpa magna dolore ullamco sunt. Veniam duis commodo do culpa excepteur mollit enim sunt ipsum elit aute cupidatat elit. Excepteur Lorem consequat eu magna reprehenderit sint aliquip.\r\n",
+    "heat": 26,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
   },
   {
     "id": 17,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Hampton Bolton",
+    "description": "Pariatur aute sit sunt voluptate pariatur quis aliquip ex non voluptate excepteur. Eu sit dolor quis proident velit aliquip dolor ullamco est non. Ut dolor elit esse cupidatat. Lorem nisi deserunt dolore proident adipisicing ex velit id. Quis proident nisi et dolor qui ut incididunt.\r\n",
+    "heat": 36,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
   },
   {
     "id": 18,
-    "name": "Game of Thrones",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "heat": 70,
-    "image": "https://via.placeholder.com/250x200"
+    "name": "Jocelyn Alford",
+    "description": "Eu proident esse veniam et minim nisi laborum. Tempor nisi aliquip dolor voluptate. Eu et amet nostrud qui laborum velit proident ipsum incididunt sint. Cillum cupidatat adipisicing consectetur elit exercitation qui magna. Ea nostrud commodo tempor laboris duis duis voluptate magna minim veniam dolor. Veniam deserunt ad sunt nisi proident incididunt.\r\n",
+    "heat": 46,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 19,
+    "name": "Carmella Bender",
+    "description": "Eiusmod officia labore velit amet anim aliqua in in est labore non. Tempor cupidatat officia fugiat ipsum exercitation consequat voluptate consequat adipisicing voluptate. Aute proident id adipisicing cillum nulla sint proident est est magna.\r\n",
+    "heat": 59,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 20,
+    "name": "Aurora Silva",
+    "description": "Nulla laborum veniam deserunt duis nulla proident in duis eu reprehenderit. Ipsum ad proident ea est deserunt ea velit aute fugiat in magna commodo irure mollit. Ea ex amet velit sunt voluptate pariatur.\r\n",
+    "heat": 30,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 21,
+    "name": "Merrill Lee",
+    "description": "Incididunt ea mollit proident culpa nostrud fugiat eiusmod commodo elit nulla quis aliquip. Duis officia laboris elit eiusmod do id ea. Aliquip pariatur irure labore laboris excepteur incididunt deserunt cupidatat aliquip ut. Veniam duis ipsum culpa anim ea in id esse. In pariatur voluptate tempor ea magna dolor labore tempor reprehenderit sint nisi culpa. Exercitation ex deserunt ea nostrud.\r\n",
+    "heat": 49,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 22,
+    "name": "Livingston Cobb",
+    "description": "Deserunt fugiat tempor in commodo officia et sit id in. Anim nostrud reprehenderit mollit officia exercitation nisi pariatur. Esse quis est eu eu consequat sunt non culpa. Aute irure eiusmod dolor officia non in excepteur ex sint nostrud veniam voluptate velit elit. Consequat nulla officia anim fugiat amet minim duis irure reprehenderit adipisicing deserunt ipsum incididunt dolore. Incididunt laboris duis minim in nisi aliquip irure tempor laborum culpa do.\r\n",
+    "heat": 48,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 23,
+    "name": "Clements Rowland",
+    "description": "Fugiat in sit sint eu sint. Elit aliquip duis commodo minim tempor laborum aute consequat nisi do laboris id id aliqua. Non elit eiusmod qui occaecat aliquip exercitation eu proident aute Lorem. Eiusmod aliquip amet velit ea Lorem dolore esse esse. In fugiat proident laboris veniam fugiat excepteur tempor labore. Occaecat amet amet dolor enim qui eiusmod voluptate in ea ut excepteur incididunt amet.\r\n",
+    "heat": 99,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 24,
+    "name": "England Porter",
+    "description": "Laboris occaecat occaecat exercitation velit pariatur do elit sunt. Ea id officia aliqua pariatur nostrud eiusmod laboris labore. Eu cupidatat do consequat adipisicing esse labore eiusmod non excepteur fugiat in velit.\r\n",
+    "heat": 43,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 25,
+    "name": "Decker Woodward",
+    "description": "Amet et occaecat ullamco ullamco consequat pariatur laborum cillum qui reprehenderit velit. Magna id mollit irure ullamco ea. Elit quis reprehenderit mollit elit sunt enim reprehenderit ad. Irure qui veniam nostrud ex cillum id sint nisi eu.\r\n",
+    "heat": 45,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 26,
+    "name": "Chaney Mckenzie",
+    "description": "Id sint sit ea irure commodo minim magna. Ea deserunt cillum consequat ad proident ipsum. Fugiat ipsum occaecat adipisicing incididunt excepteur ullamco fugiat mollit anim et. Dolor consequat elit officia commodo fugiat. Ipsum excepteur ullamco fugiat quis occaecat minim sit ut est fugiat dolor excepteur. Mollit mollit laborum aute ut mollit ad eu mollit eu esse cillum excepteur veniam velit. Nisi aliquip deserunt dolor voluptate aute veniam reprehenderit sit anim magna.\r\n",
+    "heat": 56,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 27,
+    "name": "Thornton Brown",
+    "description": "Consequat ad occaecat ipsum reprehenderit nostrud excepteur fugiat nisi ex labore fugiat excepteur commodo elit. Ullamco proident est Lorem sint ea veniam voluptate qui duis cillum sit anim excepteur minim. Id esse nisi sit ad veniam officia excepteur voluptate exercitation deserunt quis eu. Dolore deserunt dolore ad velit culpa ullamco reprehenderit ad laboris et enim velit cupidatat deserunt. Ullamco tempor ea veniam Lorem Lorem ex in ex amet ex cupidatat pariatur officia. Id labore eiusmod officia in id nostrud qui nisi irure occaecat. Aute esse laborum nisi nisi irure ea consectetur ullamco.\r\n",
+    "heat": 42,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 28,
+    "name": "Allie Obrien",
+    "description": "Culpa commodo tempor enim aliqua occaecat pariatur deserunt nostrud anim ullamco sunt. Deserunt ipsum aute proident aliqua ex. Fugiat dolor cillum ipsum cupidatat do. Ipsum amet aute anim officia labore elit do. Non laborum pariatur ex consectetur commodo minim enim nisi laboris commodo nostrud. Ipsum ipsum ullamco mollit mollit magna. Ea adipisicing qui deserunt fugiat duis laborum fugiat aliqua dolore consectetur culpa pariatur.\r\n",
+    "heat": 68,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 29,
+    "name": "Jones Vazquez",
+    "description": "Laboris reprehenderit qui deserunt officia exercitation dolore voluptate ullamco exercitation non excepteur laboris. Commodo culpa eiusmod veniam cillum. Et cillum in nostrud culpa esse aute occaecat sint ex eiusmod excepteur culpa. Ipsum ullamco voluptate culpa esse ullamco. Cupidatat sunt reprehenderit officia aliqua culpa do nisi ullamco qui consequat enim reprehenderit.\r\n",
+    "heat": 61,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 30,
+    "name": "Bradford Hall",
+    "description": "Irure aute laboris est sit proident commodo pariatur nulla quis ullamco laboris deserunt. Enim irure aute ex velit nostrud pariatur excepteur culpa esse irure nulla. Non dolor tempor irure nisi velit reprehenderit minim nisi. Lorem reprehenderit ex deserunt do elit sint dolor id ullamco sunt. Nostrud commodo anim deserunt elit pariatur ullamco officia nulla duis ut aliqua est mollit. Incididunt tempor do occaecat veniam ad dolor est culpa commodo in occaecat. Consectetur non deserunt quis anim cillum officia.\r\n",
+    "heat": 26,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 31,
+    "name": "Shawn Day",
+    "description": "Qui mollit elit ea ea ut enim incididunt fugiat non quis. Incididunt incididunt culpa ea anim fugiat dolore cillum velit amet veniam et quis esse. Do velit commodo aliqua officia enim laborum deserunt cillum. Dolore dolor tempor aliquip ad et eu deserunt. Et Lorem tempor culpa minim exercitation voluptate. Officia proident labore irure enim sunt duis exercitation.\r\n",
+    "heat": 28,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 32,
+    "name": "Wise Baker",
+    "description": "Et ea non veniam excepteur officia. In adipisicing nulla sint esse pariatur et qui consectetur aliquip. Cupidatat voluptate est ut ut non nisi adipisicing. Aliquip cillum deserunt aliqua adipisicing. Ullamco ullamco dolore est deserunt ex nostrud Lorem. Non aute laboris sint mollit pariatur qui ex aliquip anim eiusmod incididunt proident cillum aliquip.\r\n",
+    "heat": 99,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 33,
+    "name": "Norma Ochoa",
+    "description": "Aute ex non qui voluptate aliqua velit ut ullamco officia sit eiusmod veniam reprehenderit. Excepteur fugiat reprehenderit quis qui minim occaecat magna ex in eu. Deserunt mollit duis occaecat ullamco ex irure aute nulla. Dolor sint veniam aute eu quis ad est.\r\n",
+    "heat": 52,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 34,
+    "name": "Merle Rowe",
+    "description": "Cupidatat ex deserunt non id nostrud reprehenderit quis veniam. Eu cillum officia ea ea tempor irure duis culpa irure sunt est Lorem sit. In nisi consectetur magna ad.\r\n",
+    "heat": 56,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 35,
+    "name": "Graham Pena",
+    "description": "Laboris cupidatat ipsum velit pariatur est exercitation sit velit velit fugiat. Reprehenderit eu aliqua irure veniam laboris nostrud et aliquip enim. Nisi excepteur tempor ullamco sit aliqua consequat ullamco non veniam amet esse cillum nostrud proident. Amet officia occaecat pariatur exercitation amet. Culpa officia deserunt exercitation duis ad sunt. Laboris veniam labore sit voluptate nostrud id irure mollit sunt.\r\n",
+    "heat": 46,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 36,
+    "name": "Vang Navarro",
+    "description": "Ipsum ipsum ad culpa sint eu duis consequat adipisicing pariatur esse. Nulla labore mollit dolor laboris culpa. Dolor elit aliquip ipsum nisi adipisicing labore consectetur id sint. Culpa adipisicing nostrud elit veniam enim quis. Ea dolore tempor officia excepteur incididunt aute ut occaecat excepteur nulla.\r\n",
+    "heat": 33,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 37,
+    "name": "Kirsten Mccormick",
+    "description": "Mollit commodo commodo adipisicing laboris nulla qui velit aliquip minim enim mollit labore. Cupidatat excepteur ut non amet nulla ut. Aliqua exercitation est esse amet. Ea magna magna veniam consequat. Proident proident irure enim pariatur dolore nisi velit exercitation non sint. Quis ut labore ullamco deserunt irure magna laborum ipsum. Culpa in veniam voluptate exercitation quis ex laboris in commodo eu velit aliquip officia incididunt.\r\n",
+    "heat": 95,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 38,
+    "name": "Monroe Vinson",
+    "description": "Culpa cupidatat commodo anim pariatur deserunt do. Consectetur labore esse sit sint exercitation consequat amet. Eu magna sint nisi adipisicing aute. Officia qui nulla voluptate enim. Eiusmod reprehenderit et elit aliquip sit. Tempor consectetur ut culpa consequat labore ad non commodo anim magna ipsum amet ex. Duis tempor et in laborum reprehenderit cupidatat ullamco excepteur eiusmod et culpa.\r\n",
+    "heat": 69,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 39,
+    "name": "Lela Riley",
+    "description": "Nostrud commodo deserunt reprehenderit laborum adipisicing ipsum. Consectetur laborum aliqua exercitation incididunt ut. Ullamco fugiat esse adipisicing occaecat ipsum.\r\n",
+    "heat": 34,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 40,
+    "name": "Ryan Welch",
+    "description": "Amet adipisicing in sint enim incididunt esse. Magna ipsum deserunt ea esse aliquip cillum ex duis magna ipsum ipsum. Aliqua proident sunt do et do ipsum velit elit irure magna. Officia nostrud ea elit reprehenderit non aliqua occaecat sit ad adipisicing. Culpa enim nulla veniam Lorem officia deserunt duis ex.\r\n",
+    "heat": 31,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 41,
+    "name": "Latasha Webb",
+    "description": "Proident est occaecat commodo qui sunt nisi in ad. Aliqua amet exercitation minim dolore nulla occaecat nulla reprehenderit culpa proident sunt. Fugiat occaecat ut sint officia minim qui excepteur magna veniam commodo aliqua veniam. Culpa consectetur adipisicing in fugiat. Ea commodo sint ullamco ullamco reprehenderit ad velit labore proident velit reprehenderit. Nulla nulla cillum tempor laborum laboris culpa cillum veniam deserunt id mollit. Amet deserunt eu ad consectetur id in sunt mollit irure.\r\n",
+    "heat": 99,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 42,
+    "name": "Eugenia Maxwell",
+    "description": "Anim aliquip consequat aute fugiat est nisi do magna enim elit. Quis ipsum mollit veniam aute. Cillum enim proident do qui officia in amet. Labore irure est ex ut ea sunt duis cillum laborum voluptate irure qui excepteur. Dolor ullamco anim sunt incididunt reprehenderit voluptate aliquip pariatur cupidatat duis aliqua voluptate. Anim cillum ullamco exercitation labore dolor aute non elit qui ex exercitation nulla labore amet.\r\n",
+    "heat": 35,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 43,
+    "name": "Clara Chase",
+    "description": "Laboris nisi est occaecat aute excepteur est aliquip ad sint ea laboris consectetur dolore. Dolor cupidatat qui reprehenderit Lorem nisi eu et enim duis. Non officia fugiat exercitation ea amet elit. Laborum occaecat officia ullamco pariatur sit ad aliquip cupidatat dolor id ad consectetur ipsum labore. Exercitation in occaecat minim nostrud eu ipsum ipsum amet. Ex voluptate ut minim do officia labore dolore. Consequat laborum tempor elit elit sint tempor qui.\r\n",
+    "heat": 84,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 44,
+    "name": "Underwood Merrill",
+    "description": "Magna magna quis amet commodo minim magna excepteur velit exercitation irure mollit. Minim culpa exercitation consectetur occaecat nulla. Dolore occaecat nisi do consequat eiusmod sit et aliqua mollit duis occaecat cupidatat.\r\n",
+    "heat": 73,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 45,
+    "name": "Lynnette Vincent",
+    "description": "Consequat id magna commodo minim aliquip. Lorem adipisicing proident minim tempor incididunt Lorem excepteur id ex et tempor eiusmod exercitation veniam. Dolore non nisi aute commodo culpa officia irure. Et reprehenderit anim aute ex velit do et dolor. Laborum qui ipsum nisi nostrud officia eu excepteur duis nostrud dolor Lorem ut.\r\n",
+    "heat": 21,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 46,
+    "name": "Mann Orr",
+    "description": "Nostrud eu est id sunt sunt eu. Duis pariatur adipisicing ullamco consectetur tempor. Laboris laborum adipisicing eiusmod id ipsum tempor consequat enim enim excepteur sint.\r\n",
+    "heat": 65,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 47,
+    "name": "Shana Gaines",
+    "description": "Exercitation consequat dolore ea ipsum deserunt sint mollit cillum laborum adipisicing pariatur sunt duis id. Adipisicing et mollit mollit qui enim consectetur quis culpa labore amet duis velit velit. Proident cupidatat mollit sunt amet dolore do id proident excepteur anim elit occaecat. Cillum ea dolore culpa sunt nulla tempor aliquip. Ut labore ad ullamco est dolor et quis id laboris id amet. Dolor minim ullamco excepteur eu esse ipsum veniam reprehenderit exercitation excepteur consequat. Laborum ad ad do eu dolore ex laboris.\r\n",
+    "heat": 100,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 48,
+    "name": "Glenn Doyle",
+    "description": "Culpa fugiat nisi occaecat ex magna minim exercitation mollit excepteur aliqua voluptate aute laboris quis. Ad tempor pariatur commodo reprehenderit consequat voluptate reprehenderit. Adipisicing eu exercitation irure reprehenderit minim. Proident voluptate sit culpa dolor officia duis in laboris occaecat occaecat laborum. Ea proident consequat incididunt nisi reprehenderit qui duis proident et officia pariatur. Ullamco et eiusmod proident mollit ullamco proident labore amet Lorem est reprehenderit ea nostrud nisi. Labore sit dolor voluptate consectetur consequat sint nisi qui laborum consequat quis eu.\r\n",
+    "heat": 52,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 49,
+    "name": "Suzette Crosby",
+    "description": "Sint velit cupidatat eu in nisi in quis occaecat ullamco sint commodo dolore nisi culpa. Aute incididunt tempor deserunt pariatur labore Lorem amet eu ad sit eiusmod cillum. Dolore ipsum nulla velit aliquip id occaecat deserunt. Aliqua do ex nulla enim proident. Nulla incididunt velit aliqua eu id id velit nulla aute et in aute.\r\n",
+    "heat": 86,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 50,
+    "name": "Anderson Peck",
+    "description": "Ex ullamco officia ut amet id esse sunt sit. Esse adipisicing in tempor duis non voluptate aliqua enim ullamco eu culpa. Ad magna fugiat qui adipisicing magna proident dolore. Labore ut consequat est dolor nulla adipisicing exercitation occaecat qui veniam. Ex non nostrud reprehenderit Lorem occaecat magna sunt sit reprehenderit minim mollit. Est laborum commodo pariatur sit dolore irure labore nisi eu aliqua. Eu reprehenderit eiusmod enim nulla laboris sit.\r\n",
+    "heat": 41,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 51,
+    "name": "Massey Mejia",
+    "description": "Nostrud aliqua do esse laborum nostrud Lorem est. Nostrud qui qui culpa excepteur duis consequat. Voluptate mollit esse dolor nulla laboris sit nostrud amet quis ad eiusmod aute laborum.\r\n",
+    "heat": 39,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 52,
+    "name": "Paige Wolfe",
+    "description": "Tempor nostrud ad dolore dolore dolor sit cillum duis consectetur. Excepteur adipisicing ea dolore labore commodo ipsum. Cupidatat ea ut sunt cillum cillum.\r\n",
+    "heat": 62,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 53,
+    "name": "Pennington Hooper",
+    "description": "Eiusmod dolore culpa veniam irure sunt id minim do pariatur non. Occaecat enim consectetur eu consequat Lorem exercitation velit incididunt proident deserunt. Elit veniam minim et voluptate eiusmod adipisicing consectetur aliqua anim. Pariatur ipsum excepteur sint aute dolor anim magna cillum mollit. Mollit elit reprehenderit cupidatat tempor sint culpa sit irure cillum aute incididunt cupidatat dolore. Eiusmod elit aliquip consectetur nisi. Id incididunt ad Lorem est aliquip elit ea elit velit.\r\n",
+    "heat": 23,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 54,
+    "name": "Perkins Quinn",
+    "description": "Aliqua adipisicing velit exercitation in non incididunt ut ut cillum laborum proident minim ullamco exercitation. Lorem culpa minim esse consectetur aliqua veniam fugiat enim do enim occaecat consectetur id. Anim officia reprehenderit est tempor nulla veniam. Tempor dolor ea in magna. Eu ipsum sunt dolore non. Veniam Lorem nulla magna eu ut ad aute commodo.\r\n",
+    "heat": 88,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 55,
+    "name": "Warren Davenport",
+    "description": "Sint dolor eu Lorem amet reprehenderit voluptate non cillum elit veniam quis. Pariatur cupidatat deserunt commodo ad anim consequat ullamco ea ex reprehenderit voluptate. Incididunt cillum voluptate eu amet proident aute ullamco ad excepteur ea. Laborum deserunt fugiat magna anim elit velit quis veniam. Ut fugiat qui officia do minim enim occaecat laboris cupidatat. Sint culpa qui ea fugiat Lorem sit et officia minim. Nisi fugiat velit voluptate ea et pariatur irure id commodo magna consequat adipisicing laborum.\r\n",
+    "heat": 45,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 56,
+    "name": "Kimberley Hughes",
+    "description": "Adipisicing ad eu consectetur irure laborum cillum consectetur. Est ipsum sint cillum ut. Exercitation voluptate consectetur labore eiusmod culpa cillum ea commodo aute. Duis nisi duis in consectetur voluptate aute esse est non adipisicing Lorem quis. Nisi velit enim laborum aute nostrud duis non ut enim incididunt aliqua quis.\r\n",
+    "heat": 53,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 57,
+    "name": "Alta Powell",
+    "description": "Officia fugiat irure mollit ut enim enim laboris id deserunt id officia ipsum cillum. In ex laboris eu incididunt eiusmod duis minim consequat laborum dolore occaecat labore. Deserunt reprehenderit amet aliqua ut exercitation ullamco dolor esse exercitation. Aliqua nulla exercitation mollit laborum ea sunt Lorem incididunt fugiat dolor dolore in laboris.\r\n",
+    "heat": 41,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 58,
+    "name": "Koch Holmes",
+    "description": "Aliqua consectetur proident duis occaecat ipsum nisi. Dolor tempor excepteur consectetur veniam fugiat nostrud laborum. Ipsum ad nulla reprehenderit ex nisi incididunt sit enim deserunt. Cupidatat aliqua nisi aliqua qui nulla occaecat elit et. Fugiat pariatur exercitation enim adipisicing enim Lorem elit cupidatat amet incididunt duis deserunt Lorem.\r\n",
+    "heat": 64,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 59,
+    "name": "Nadine Keith",
+    "description": "Sint sunt duis non culpa eu anim laboris ipsum. Aliqua Lorem Lorem cillum ullamco in excepteur elit esse veniam id id est voluptate non. Laboris cupidatat eu adipisicing id anim sit. Dolor sunt aliquip sit pariatur dolore aliqua. Occaecat eu quis consectetur consequat. Sunt ea eu esse consectetur exercitation fugiat. Officia pariatur culpa anim nulla labore adipisicing magna.\r\n",
+    "heat": 77,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 60,
+    "name": "Kerri Bailey",
+    "description": "Do labore consectetur anim veniam reprehenderit velit culpa sit laboris ullamco. Cillum elit duis eu elit laboris esse exercitation. Cillum exercitation aliquip irure sit. Cillum amet quis ipsum magna proident exercitation ut excepteur anim. Adipisicing tempor quis eiusmod non excepteur ea. Anim tempor exercitation tempor deserunt excepteur tempor aliquip in ullamco do deserunt enim. Nisi voluptate aliquip occaecat quis eu anim.\r\n",
+    "heat": 51,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 61,
+    "name": "Tracey Finley",
+    "description": "Ut in sit proident commodo amet consequat exercitation reprehenderit exercitation nostrud. Laborum Lorem consectetur consequat laboris irure magna aliquip ex sunt non anim eu. Dolor dolore id ut amet Lorem Lorem aliqua. Consectetur eu reprehenderit pariatur fugiat aliqua aliquip Lorem est sit. Exercitation excepteur voluptate anim mollit laborum culpa tempor laboris.\r\n",
+    "heat": 37,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 62,
+    "name": "Acosta Potts",
+    "description": "Tempor quis ullamco tempor excepteur ex laboris ullamco aliquip cillum sunt. Lorem irure voluptate nostrud officia quis officia. Elit eu laboris est magna aute excepteur in. Qui ullamco ipsum nulla sint ad nulla ad do excepteur non enim amet voluptate consectetur. Laboris ex dolore elit labore proident cillum. Deserunt ad excepteur culpa incididunt non ut magna qui aliqua et exercitation exercitation. Laboris do dolore dolore voluptate ipsum Lorem aliquip ea laboris nostrud laborum ea mollit excepteur.\r\n",
+    "heat": 60,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 63,
+    "name": "Mayer Riggs",
+    "description": "Adipisicing do ex eu est qui occaecat eu anim consequat. Elit non nostrud duis nostrud qui consectetur minim non culpa culpa. Ipsum laboris culpa labore id amet magna deserunt velit. Laborum esse elit laboris amet ut. Qui laborum proident sunt eiusmod esse id.\r\n",
+    "heat": 22,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 64,
+    "name": "Randolph Carver",
+    "description": "Nisi duis velit eu laborum tempor dolore est occaecat occaecat eu adipisicing cillum tempor. Lorem aute irure enim velit ea deserunt adipisicing id. Ad aliqua laborum esse sint irure adipisicing sunt proident incididunt consectetur eu proident sunt. Dolore occaecat fugiat qui qui minim commodo adipisicing culpa exercitation ut incididunt nisi magna. Elit voluptate labore reprehenderit dolore voluptate eiusmod fugiat.\r\n",
+    "heat": 99,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 65,
+    "name": "Rasmussen Sears",
+    "description": "Reprehenderit ullamco quis aute excepteur minim officia exercitation esse culpa. Culpa irure fugiat cupidatat nisi. Ex proident non voluptate voluptate proident enim et quis ad deserunt tempor. Magna eu ullamco cupidatat esse. Proident officia eiusmod consectetur occaecat cupidatat nulla deserunt esse culpa id esse labore. Amet cillum deserunt pariatur amet esse consectetur fugiat ea consequat ad pariatur ut labore. Ex sint in ad deserunt.\r\n",
+    "heat": 50,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 66,
+    "name": "Eileen Montgomery",
+    "description": "Ullamco mollit ut enim incididunt amet est quis id. Id ad quis in irure fugiat tempor enim aliqua. Enim commodo laborum adipisicing exercitation consequat deserunt sunt anim excepteur incididunt adipisicing. Proident esse cillum do enim sunt laborum ea.\r\n",
+    "heat": 79,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 67,
+    "name": "Jacobs Harrison",
+    "description": "Sint ullamco anim exercitation Lorem velit aliqua non reprehenderit exercitation nisi velit aliquip laboris id. Dolor duis eu consequat occaecat. Velit sit ut ut voluptate anim sint reprehenderit id dolore reprehenderit eu magna. Do aliqua Lorem culpa qui do sint.\r\n",
+    "heat": 45,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 68,
+    "name": "Hutchinson Mccullough",
+    "description": "Proident tempor excepteur eiusmod nulla velit magna. Laborum sit ipsum est enim voluptate nulla cillum occaecat anim. Aliquip amet sint laborum proident et dolore laborum ut dolor eiusmod elit magna aliqua. Sit officia nulla amet laborum proident veniam. Qui velit veniam reprehenderit qui culpa fugiat amet irure cillum.\r\n",
+    "heat": 27,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 69,
+    "name": "Kristin Fleming",
+    "description": "Minim quis sint nisi ad aliquip adipisicing cillum mollit do tempor ut. Mollit do ipsum incididunt nisi. Velit non non ea sunt Lorem cupidatat id ullamco exercitation pariatur adipisicing nisi sint sunt. Ipsum exercitation mollit amet reprehenderit ea deserunt ut ad quis dolor ullamco deserunt.\r\n",
+    "heat": 84,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 70,
+    "name": "Ortega Snow",
+    "description": "Amet dolore consectetur qui nisi aliquip enim velit officia ipsum voluptate aliqua velit laborum ullamco. Mollit occaecat adipisicing minim est Lorem. Sunt amet nostrud velit nulla laboris deserunt ad enim ex consectetur. Culpa proident velit ex eiusmod irure esse. Deserunt pariatur exercitation duis tempor cupidatat laborum ad commodo magna dolor.\r\n",
+    "heat": 94,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 71,
+    "name": "Brandy Carey",
+    "description": "Mollit consectetur magna cillum laborum veniam occaecat quis amet reprehenderit irure cupidatat eiusmod quis proident. Voluptate occaecat reprehenderit labore dolore id incididunt. Ipsum laboris quis exercitation eu amet id sit incididunt laborum aliqua aliqua esse ipsum id.\r\n",
+    "heat": 78,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 72,
+    "name": "Iva Erickson",
+    "description": "Occaecat et elit ad commodo officia nulla ea duis eu fugiat ullamco enim sint. Quis est elit sint eu dolor enim sint est. Cillum eu ipsum tempor enim id Lorem aute eu veniam eiusmod esse. Ad ea aliquip eiusmod exercitation cupidatat labore nostrud non magna dolore esse nulla.\r\n",
+    "heat": 84,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 73,
+    "name": "Gardner Kinney",
+    "description": "Occaecat nostrud irure officia anim quis. Exercitation anim laboris reprehenderit laboris. Eu non ex nisi in. Elit ut quis reprehenderit deserunt fugiat aliqua exercitation magna magna voluptate. Eiusmod exercitation anim non pariatur duis occaecat sit ea deserunt ex magna.\r\n",
+    "heat": 71,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 74,
+    "name": "Bolton Oneill",
+    "description": "Elit consectetur veniam aute enim enim excepteur voluptate adipisicing sit laborum deserunt cupidatat. Voluptate minim minim nisi minim eiusmod ea occaecat incididunt do laborum adipisicing. Amet qui in aliqua magna et officia adipisicing voluptate velit anim. Culpa nostrud esse laborum fugiat est.\r\n",
+    "heat": 74,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 75,
+    "name": "Hicks Cantrell",
+    "description": "Fugiat Lorem sunt aliqua ullamco mollit quis deserunt cillum nulla sint est aute. Dolor dolore quis non cillum sit consectetur non irure officia reprehenderit. Magna elit irure velit dolor exercitation esse consectetur. Anim occaecat enim commodo dolor dolore ullamco sint proident minim eu ipsum fugiat deserunt labore.\r\n",
+    "heat": 91,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 76,
+    "name": "Rosanne Hart",
+    "description": "Mollit enim deserunt consequat proident reprehenderit. Voluptate eu nostrud eiusmod laboris. Enim irure adipisicing proident dolor laborum ut proident aliqua voluptate sit do labore pariatur. Non veniam magna duis enim occaecat deserunt laboris incididunt elit dolor amet mollit cupidatat sit. Ut pariatur ut aliqua ullamco laborum qui mollit anim voluptate pariatur labore est ex. Laborum enim ea cupidatat amet ad aute commodo laborum eu aliquip aliqua amet occaecat esse. Enim culpa veniam aliqua exercitation esse excepteur consectetur.\r\n",
+    "heat": 54,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 77,
+    "name": "Cruz Wilder",
+    "description": "Aliqua do ut labore mollit eu quis culpa magna laboris. Culpa officia pariatur laboris quis consequat ad culpa qui est amet id laborum elit dolor. Cillum deserunt ex veniam cillum do sit quis proident excepteur nulla pariatur Lorem. Voluptate magna ad non deserunt magna reprehenderit aute eiusmod labore incididunt. Dolor cillum mollit officia fugiat qui irure id sit excepteur. Sunt laborum qui nostrud ex. Qui ad mollit nostrud voluptate.\r\n",
+    "heat": 31,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 78,
+    "name": "Corina Solomon",
+    "description": "Id eu ullamco laborum incididunt dolor minim fugiat non magna ipsum anim esse deserunt anim. Enim tempor veniam minim laboris ad exercitation tempor sunt commodo dolore do. Consequat nulla amet reprehenderit id commodo. Id laborum exercitation ad in irure cupidatat aute officia.\r\n",
+    "heat": 85,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": false
+  },
+  {
+    "id": 79,
+    "name": "Carson Giles",
+    "description": "Pariatur tempor esse esse cillum in ipsum cupidatat. Sit exercitation elit labore amet. Aute excepteur mollit eiusmod irure dolore dolor veniam amet tempor est enim. Occaecat ex culpa culpa excepteur cupidatat ut reprehenderit culpa.\r\n",
+    "heat": 49,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 80,
+    "name": "Ida Torres",
+    "description": "Dolore minim consequat consequat ullamco officia anim aute in minim ex eiusmod laboris occaecat. Excepteur ullamco incididunt laboris minim ad ex id fugiat reprehenderit exercitation. Duis nulla pariatur irure culpa. Cillum magna aliquip consequat exercitation. Aute incididunt sunt cupidatat incididunt laboris adipisicing duis laboris.\r\n",
+    "heat": 49,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 81,
+    "name": "Summer Delaney",
+    "description": "Quis ea ad commodo qui in cupidatat do velit voluptate esse. Aliqua velit duis qui eiusmod irure commodo. Proident nostrud et mollit sit labore do anim anim laborum esse in cillum. Amet laborum amet sit qui reprehenderit fugiat pariatur cillum fugiat ut dolore amet est exercitation. Laboris nisi pariatur minim ipsum amet eu cillum Lorem sit. Et officia esse eu ut. Nostrud aute dolor ad nulla exercitation et Lorem anim consequat magna.\r\n",
+    "heat": 92,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": false,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 82,
+    "name": "Bruce Sheppard",
+    "description": "Ipsum dolor enim reprehenderit nostrud eiusmod exercitation sint velit. Consectetur reprehenderit aute officia in. Do dolore aliqua enim officia in nisi in deserunt culpa. In excepteur amet irure eu consectetur sit mollit id.\r\n",
+    "heat": 95,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": true
+  },
+  {
+    "id": 83,
+    "name": "Cochran Kelly",
+    "description": "Nostrud excepteur duis minim eu pariatur tempor nulla elit velit laborum veniam elit. Anim reprehenderit voluptate in eu commodo. Consequat sunt esse laborum exercitation occaecat tempor.\r\n",
+    "heat": 51,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 84,
+    "name": "Baird Blevins",
+    "description": "Incididunt laboris aliquip culpa id in nulla eu excepteur sunt excepteur. Quis quis labore quis velit non. Reprehenderit minim ullamco labore dolore. Excepteur ipsum eiusmod in minim nostrud aliquip tempor. Consectetur velit consequat non qui. Ipsum occaecat esse veniam enim fugiat dolor anim veniam incididunt ea officia occaecat aliqua.\r\n",
+    "heat": 76,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": false,
+    "isRecommended": false
+  },
+  {
+    "id": 85,
+    "name": "Jo Sims",
+    "description": "Officia tempor cupidatat minim cillum elit deserunt et anim nostrud non deserunt irure eiusmod. Consequat laborum quis enim consequat et cillum laborum amet ullamco exercitation exercitation anim eiusmod. Dolore aliquip ad irure pariatur sint. Aliqua consequat anim officia officia ipsum nostrud sint. Velit ut cillum in tempor exercitation enim eiusmod aliqua commodo minim cillum velit officia magna. Amet eu sunt adipisicing cupidatat duis quis veniam adipisicing.\r\n",
+    "heat": 80,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
+  },
+  {
+    "id": 86,
+    "name": "Susanna Stevenson",
+    "description": "Pariatur elit qui quis excepteur do. Laboris ullamco dolor tempor aute in irure. Laboris ad commodo veniam nisi aute elit elit. Incididunt incididunt ad culpa velit excepteur. Elit voluptate elit amet fugiat cupidatat non irure pariatur in in in adipisicing tempor. Qui mollit ut Lorem mollit excepteur nulla incididunt pariatur non. Dolor labore consectetur ex sunt ad.\r\n",
+    "heat": 60,
+    "image": "https://via.placeholder.com/250x200",
+    "isFavorite": true,
+    "isNew": true,
+    "isRecommended": true
   }
 ]

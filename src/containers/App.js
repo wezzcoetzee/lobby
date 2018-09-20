@@ -45,7 +45,16 @@ class App extends Component {
   }
 
   gameSearch(searchTerm) {
-    console.log(searchTerm);
+    let gameList = [];
+    gameListData.forEach((e) => {
+      if (e.name.includes(searchTerm)) {
+        gameList.push(e);
+      }
+    });
+
+    this.setState({
+      gamesList: gameList
+    });
   }
 
   showDetails(gameClick, selectedGame) {
