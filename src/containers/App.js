@@ -93,9 +93,15 @@ class App extends Component {
         </div>
         
         <div className={this.state.showDetails ? 'toggle__button menu--toggle details--expanded' : 'toggle__button menu--toggle'} onClick={() => {this.showDetails(false)}}>
-          <i className="material-icons">
-            chevron_left
-          </i>
+          {this.state.showDetails ? (
+            <i className="material-icons">
+              chevron_right
+            </i>
+          ) : (
+            <i className="material-icons">
+              chevron_left
+            </i>
+          )}
         </div>
         <div className={this.state.showDetails ? 'toggle__button scroll--top details--expanded' : 'toggle__button scroll--top'}>
           <i className="material-icons">
