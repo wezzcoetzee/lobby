@@ -1,0 +1,11 @@
+@import './_variables';
+
+a {
+  // display: block;
+  cursor: pointer;
+  color: $primary-color;
+
+  &:hover {
+    color: lighten( $secondary-color, 10% );
+  }
+}

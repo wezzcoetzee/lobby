@@ -108,7 +108,7 @@ class App extends Component {
            isOpen={this.state.showLoginModal}
            contentLabel="onRequestClose Example"
            onRequestClose={() => this.handleModalClose('login')}
-           className="Modal"
+           className="Modal login"
            overlayClassName="Overlay"
         >
           <Login handleModalClose={(e) => this.handleModalClose(e)} />
@@ -118,7 +118,7 @@ class App extends Component {
            isOpen={this.state.showRegisterModal}
            contentLabel="onRequestClose Example"
            onRequestClose={() => this.handleModalClose('register')}
-           className="Modal"
+           className="Modal register"
            overlayClassName="Overlay"
         >
           <Register handleModalClose={(e) => this.handleModalClose(e)} />

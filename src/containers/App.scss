@@ -4,10 +4,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  height: 30rem;
+  margin: auto;  
   width: 40rem;
   background-color: $white-color;
+
+  &.login {
+    height: 30rem;
+  }
+  &.register {
+    height: 40rem;
+  }
 }
 
 .Overlay {

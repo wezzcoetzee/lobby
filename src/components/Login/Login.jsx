@@ -28,11 +28,16 @@ class Login extends React.Component {
           <input type="email" onChange={this.updateEmail} value={this.state.email} />
           <label>Password</label>
           <input type="password" onChange={this.updatePassword} value={this.state.password} />
+          
+          <div className="link__wrapper">
+            <p>Don't have an account? <a>Register</a></p>
+            <a>Forgot your password?</a>
         </div>
+        </div>        
         <div className="button__wrapper">
           <button className="primary" onClick={() => this.props.handleModalClose('login')}>Login</button>
           <button className="secondary" onClick={() => this.props.handleModalClose('login')}>Cancel</button>
-        </div>
+        </div>        
       </section>
     )
   }
